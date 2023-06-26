@@ -1,0 +1,11 @@
+.container{
+    width: 70%;
+    padding-left: 10px;
+}
+.global{
+    display: flex;
+}
+.list{
+    list-style: none;
+    font-size: xx-large;
+}

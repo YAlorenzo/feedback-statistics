@@ -1,0 +1,27 @@
+.buttonG{
+   background-color: rgba(57, 193, 8, 0.7);
+}
+.buttonN{
+    background-color: rgba(78, 85, 90, 0.5);
+}
+.buttonB{
+    background-color: rgba(219, 27, 27, 0.7);
+}
+.buttonB,
+.buttonG,
+.buttonN{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    padding: 10px;
+}
+.list{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.list li:not(:last-child){
+    margin-right: 10px;
+}
