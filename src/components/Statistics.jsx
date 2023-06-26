@@ -3,7 +3,7 @@ import Section from "./Section";
 import Notification from "./Notification";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement,  Title, Tooltip, Legend, } from "chart.js";
 import { Bar } from 'react-chartjs-2';
-import PropTypes, { func, number } from "prop-types";
+import { func, number } from "prop-types";
 import css from './statistics.module.css';
 
 
