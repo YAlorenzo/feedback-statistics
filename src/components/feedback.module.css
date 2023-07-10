@@ -1,11 +1,26 @@
 .buttonG{
+    transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
    background-color: rgba(57, 193, 8, 0.7);
 }
 .buttonN{
+    transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
     background-color: rgba(78, 85, 90, 0.5);
 }
 .buttonB{
+    transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
     background-color: rgba(219, 27, 27, 0.7);
+}
+.buttonB:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.buttonG:hover {
+    background-color: green;
+    cursor: pointer;
+}
+.buttonN:hover {
+    background-color: gray;
+    cursor: pointer;
 }
 .buttonB,
 .buttonG,
